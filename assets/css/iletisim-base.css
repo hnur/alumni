@@ -1,0 +1,134 @@
+.highlight {
+	font-size: 19px;
+	line-height: 26px;
+	color: #838388;
+}
+
+body {
+	min-height: 100%;
+	background: #f4f7fc url('img/body-bg.jpg');
+	color: #555555;
+	text-rendering: optimizelegibility;
+}
+/* Button styles */
+.btnlar {
+	display: inline-block;
+	border: none;
+	padding-top: 0;
+	padding-bottom: 0;
+	cursor: pointer;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+.btnlar span {
+	display: block;
+	font-weight: 600;
+	float: left;
+}
+.btnlar.blue-45 {
+	height: 45px;
+	background: url('img/blue-45-l.png') no-repeat top left;
+	padding-left: 7px;
+}
+.btnlar.blue-45 span {
+	height: 45px;
+	background: url('img/blue-45-r.png') no-repeat top right;
+	font-size: 20px;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+	line-height: 41px;
+	padding: 0 37px 0 30px;
+}
+.btnlar.blue-45:hover {
+	background-position: 0 -45px;
+	text-decoration: none;
+}
+.btnlar.blue-45:hover span {
+	background-position: 100% -45px;
+}
+.btnlar.blue-45:active {
+	background-position: 0 -90px;
+}
+.btnlar.blue-45:active span {
+	background-position: 100% -90px;
+}
+#header .logo {
+	width: 75px;
+	height: 25px;
+	background: url('img/19-normal-32x32.png') no-repeat center 5px;
+	display: block;
+	float: left;
+	margin: 1px 23px 1px 7px;
+	padding: 7px;
+}
+.box {
+	background: #fff;
+	border: 1px solid #c4c6ca;
+	border: 1px solid rgba(0,0,0,0.2);
+	position:relative;
+	margin-bottom: 25px;
+}
+	
+
+/* forms */
+form input,
+form select {
+	width: 280px;
+	margin-top: 15px;
+	padding-left: 50px;
+	height: 35px;
+}
+input:-webkit-autofill {
+	background-color: #fff !important;
+}
+.carousel{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+form #name,
+form #first-name,
+form #last-name {
+	background: #fff url('img/grad-user.png') no-repeat 15px 9px;
+}
+form #email {
+	background: #fff url('img/grad-mail.png') no-repeat 15px 12px;
+}
+form #phone {
+	background: #fff url('img/grad-phone.png') no-repeat 15px 7px;
+}
+form #company-name,
+form #organization-name {
+	background: #fff url('img/comments.png') no-repeat 15px 9px;
+}
+input[type="text"] {
+	width: 280px;
+	height: 25px;
+	padding-left: 50px;
+}
+input[type="text"]:focus {
+	height: 25px;
+}
+.textfield:focus{
+	height: 160px;
+}
+.textfield {
+	background: #fff;
+	resize: none;
+	border: 1px solid #b4b5b8;
+	border-top: 1px solid #a1a1a3;
+	border-bottom: 1px solid #caccd2;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	font-size: 17px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #555555;
+	padding: 12px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.20), 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.20), 0 1px 0 #fff;
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.20), 0 1px 0 #fff;
+	width: 450px;
+	height: 120px;
+}

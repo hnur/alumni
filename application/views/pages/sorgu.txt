@@ -1,0 +1,2 @@
+$sorgu="UPDATE users SET online = 0 WHERE email="+'email';
+		mysql_query($sorgu);

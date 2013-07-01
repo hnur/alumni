@@ -1,0 +1,23 @@
+<style type="text/css" title="currentStyle">
+      @import "<?php echo base_url('assets/css/demo_page.css') ?>";
+      @import "<?php echo base_url('assets/css/jquery.dataTables.css') ?>";
+</style>
+<script type="text/javascript" language="javascript" src="<?php echo base_url('assets/js/jquery.dataTables.js') ?>"></script>
+<script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        <? foreach ($bolumler as $kBolumler => $vBolumler) { ?>
+          $('#<? echo $vBolumler["id"]; ?>').dataTable();
+        <? } ?>
+      } );
+</script>
+<table cellpadding="0" cellspacing="0" border="0" class="display" id="<? echo $vBolumler['id']; ?>" width="100%">
+                    <thead>
+						<tr class="odd gradeX">
+                          <th align='left'>İSİM</th>
+                        </tr>
+                    </thead
+					<? foreach $users as $kuser => $vuser { ?>
+						<tr class="odd gradeX">
+          					<td><? echo $vuser['first_name'] ?></td>
+          				</tr>
+					<? } ?>
